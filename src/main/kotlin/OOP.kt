@@ -11,5 +11,16 @@ fun main(args: Array<String>) {
     // This is an object
     val myobject=Stubborn()
     println(myobject.calculate())
+    //create object
+    var obj=eMobilis()
+    println(obj.Hesabu())
 
+}
+class eMobilis{
+    // data member
+    var num:Int=6
+    //member function
+    fun Hesabu():Int{
+        return num *num
+    }
 }
